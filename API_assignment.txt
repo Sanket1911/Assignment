@@ -1,0 +1,66 @@
+
+Q1. What is an API? Give an example, where an API is used in real life.
+Ans :
+API stands for Application Programming Interface. It is a set of protocols, routines, and tools that developers use to build software applications. In simple terms, an API allows different software programs to communicate with each other and share data or functionality.
+For example, when you book a flight ticket online, the website you use communicates with the airline's reservation system using an API. The website sends a request to the API for available flights, and the API returns the necessary data, such as flight schedules, prices, and seat availability. Based on the API response, the website can display the relevant information to the user and complete the booking process.
+APIs are used in many other real-life scenarios, such as social media platforms, e-commerce websites, mobile apps, and online payment gateways. They play a crucial role in enabling the integration of different software systems and services, making it easier for developers to create innovative applications that deliver value to end-users.
+'
+
+
+Q2. Give advantages and disadvantages of using API.
+Ans : 
+Advantages of using API:
+Improved Efficiency.
+Increased Functionality
+Better User Experience
+Faster Development
+Cost Effective
+Disadvantages of using API:
+Complexity
+Security Risks
+Dependency
+Limited Control
+Unpredictable Performance
+
+
+
+Q3. What is a Web API? Differentiate between API and Web API.
+Ans : 
+A Web API, also known as a web service, is a specific type of API that is designed to work over the internet and is accessed using standard web protocols, such as HTTP. A Web API provides a way for applications to exchange data and functionality with each other over the web.
+The main difference between an API and a Web API is the way they are accessed. While an API can be accessed through a variety of methods, such as a command-line interface or a software development kit (SDK), a Web API is accessed using web technologies like HTTP and is designed to work with web applications.
+Another key difference is the type of data that is exchanged. APIs can be used to exchange any type of data or functionality, whereas Web APIs are specifically designed for exchanging data in a standardized format, such as XML or JSON, that is easily consumable by web applications.
+To summarize, a Web API is a type of API that is accessed over the internet using web protocols, and is specifically designed for exchanging data in a standardized format with web applications.
+
+
+
+Q4. Explain REST and SOAP Architecture. Mention shortcomings of SOAP.
+Ans : 
+REST (Representational State Transfer) and SOAP (Simple Object Access Protocol) are two popular architectural styles for designing web services.
+REST architecture is based on the principles of the World Wide Web and is a lightweight, stateless approach for building web services. It relies on HTTP verbs (GET, POST, PUT, DELETE) to perform operations on resources represented by URIs (Uniform Resource Identifiers). RESTful services usually return data in a standardized format such as JSON or XML. REST is flexible, scalable, and easy to cache, making it a popular choice for building web services.
+SOAP architecture, on the other hand, is a more heavyweight protocol that uses XML messages to exchange data. SOAP defines a standard format for messages and supports various communication protocols like HTTP, SMTP, TCP, and more. It also supports a wide range of data formats, such as XML, JSON, and binary data. SOAP provides built-in error handling, security, and transaction support, making it suitable for enterprise-level applications.
+One of the main shortcomings of SOAP is its complexity. The XML-based messages are often verbose and require more bandwidth to transmit. The strict message format and the overhead of SOAP envelope, header, and body can also make it slower than RESTful services. SOAP also requires more processing power and resources, making it less suitable for resource-constrained devices like mobile phones or IoT devices.
+In summary, REST and SOAP are two different architectural styles for building web services, with their own strengths and weaknesses. REST is a lightweight, stateless approach that is simple and scalable, while SOAP is a more heavyweight protocol that offers built-in security, error handling, and transaction support, but can be more complex and less suitable for resource-constrained devices.
+
+
+
+
+Q5. Differentiate between REST and SOAP.
+Ans : 
+REST (Representational State Transfer) and SOAP (Simple Object Access Protocol) are two different architectural styles for building web services. Here are the main differences between the two:
+
+Protocol: REST is an architectural style that uses HTTP protocol for communication, while SOAP is a protocol that uses XML format for message exchange.
+
+Data Format: REST primarily uses JSON and XML formats for data exchange, while SOAP uses XML format exclusively.
+
+Message Size: REST messages are typically smaller than SOAP messages because they don't include unnecessary headers and SOAP envelopes.
+
+Performance: REST is faster and more lightweight than SOAP because it has less overhead and uses caching for better performance. SOAP is heavier and slower because it requires more processing power and network bandwidth.
+
+Security: SOAP has built-in support for security features like encryption and digital signatures, while REST relies on external security mechanisms like HTTPS and OAuth.
+
+Ease of Use: REST is easier to use and requires less code to implement than SOAP, which can be complex and verbose.
+
+API Design: REST APIs are resource-centric and use HTTP methods (GET, POST, PUT, DELETE) to manipulate resources, while SOAP APIs are method-centric and use XML messages to invoke methods.
+
+In summary, REST and SOAP are two different approaches to building web services, with REST being a lightweight, resource-centric, and easier to use approach, while SOAP is a more heavyweight, method-centric, and feature-rich approach that offers more built-in security and reliability.
+
